@@ -1,0 +1,14 @@
+C:\Users\Boris\source\repos\Common\GService\obj\Debug\GService.csprojAssemblyReference.cache
+C:\Users\Boris\source\repos\Common\GService\obj\Debug\GService.csproj.CoreCompileInputs.cache
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\GService.exe.config
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\GService.exe
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\GService.pdb
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\Common.dll
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\EntityFramework.dll
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\Common.pdb
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\EntityFramework.xml
+C:\Users\Boris\source\repos\Common\GService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Boris\source\repos\Common\GService\obj\Debug\GService.csproj.CopyComplete
+C:\Users\Boris\source\repos\Common\GService\obj\Debug\GService.exe
+C:\Users\Boris\source\repos\Common\GService\obj\Debug\GService.pdb

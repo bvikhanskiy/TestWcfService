@@ -1,0 +1,22 @@
+﻿<Window x:Class="GClient.AddOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GClient"
+        mc:Ignorable="d"
+        Title="AddOrderWindow" Height="262.181" Width="520.657">
+    <Grid Margin="0,0,2,-2">
+        <ComboBox x:Name="cbCustomer" HorizontalAlignment="Left" Margin="157,10,0,0" VerticalAlignment="Top" Width="274" SelectionChanged="CbCustomer_SelectionChanged"/>
+        <Label Content="Customer name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="142"/>
+        <ComboBox x:Name="cbInventory" HorizontalAlignment="Left" Margin="157,41,0,0" VerticalAlignment="Top" Width="274" SelectionChanged="CbInventory_SelectionChanged"/>
+        <Label Content="Inventory name:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Event date:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="142"/>
+        <DatePicker x:Name="dtpEventDate" HorizontalAlignment="Left" Margin="157,74,0,0" VerticalAlignment="Top" Width="274" SelectedDateChanged="DtpEventDate_SelectedDateChanged"/>
+        <Button x:Name="btnAdd" Content="Add " HorizontalAlignment="Left" Margin="157,201,0,0" VerticalAlignment="Top" Width="75" Click="BtnAdd_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="306,201,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancel_Click"/>
+        <Label Content="Comment:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="142"/>
+        <TextBox x:Name="txtComment" HorizontalAlignment="Left" Height="79" Margin="157,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" TextChanged="TxtComment_TextChanged"/>
+
+    </Grid>
+</Window>
